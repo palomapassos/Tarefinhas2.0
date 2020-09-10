@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #f5f5f5;
+  }
+  
+  h1{
+    color: palevioletred;
+  }
+  
+  .conteudo{
+    width: 500px;
+    height: auto;
+  }
+  
+  form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+  }
+  
+  
+  .entrada{
+    border-radius: 4px;
+    width:400px;
+    margin-left: 0.5em;
+  }
+  
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+  }
+  
+  li{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+  }
+  
+  li button{
+    visibility:hidden;
+  }
+  
+  li:hover button{
+    visibility: visible;
+    border: 1px solid palevioletred;
+  }
+  
+  .feitas span{
+    text-decoration: line-through;
+  }
+  
+  
+  .card{
+    background-color: white;
+    padding: 1em 0.5em;
+  }
+  
+  .rodape{
+    display: flex;
+    justify-content:space-between;
+    border-top: 2px solid palevioletred;
+    padding-top: 0.5em;
+  }
+  
+  button{
+    background-color: white;
+    border: hidden; 
+  }
+  
+  button:hover{
+    border: 1px solid palevioletred;
+  }
